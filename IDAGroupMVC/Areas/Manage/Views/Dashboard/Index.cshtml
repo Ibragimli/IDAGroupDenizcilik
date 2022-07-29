@@ -1,0 +1,309 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model DashboardViewModel
+
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="row">
+
+                    <div class="col-xl-12">
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-primary text-primary">
+
+                                                <i class="fa-solid fa-calendar-day"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-primary mb-1">@Model.Home.ClickName-CountDay</p>
+                                                <h4 class="mb-0">@Model.HomeCountDay</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 ">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-warning text-warning">
+                                                <i class="fa-solid fa-calendar-week"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-warning mb-1">@Model.Home.ClickName-CountMonth</p>
+                                                <h4 class="mb-0">@Model.HomeCountMonth</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body  p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-danger text-danger">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class=" text-danger  mb-1">@Model.Home.ClickName-Count</p>
+                                                <h4 class="mb-0">@Model.Home.Count</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-primary text-primary">
+
+                                                <i class="fa-solid fa-calendar-day"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-primary mb-1">@Model.Products.ClickName-CountDay</p>
+                                                <h4 class="mb-0">@Model.ProductsCountDay</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 ">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-warning text-warning">
+                                                <i class="fa-solid fa-calendar-week"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-warning mb-1">@Model.Products.ClickName-CountMonth</p>
+                                                <h4 class="mb-0">@Model.ProductsCountMonth</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body  p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-danger text-danger">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class=" text-danger  mb-1">@Model.Products.ClickName-Count</p>
+                                                <h4 class="mb-0">@Model.Products.Count</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-primary text-primary">
+
+                                                <i class="fa-solid fa-calendar-day"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-primary mb-1">@Model.Contact.ClickName-CountDay</p>
+                                                <h4 class="mb-0">@Model.ContactCountDay</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 ">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-warning text-warning">
+                                                <i class="fa-solid fa-calendar-week"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-warning mb-1">@Model.Contact.ClickName-CountMonth</p>
+                                                <h4 class="mb-0">@Model.ContactCountMonth</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body  p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-danger text-danger">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class=" text-danger  mb-1">@Model.Contact.ClickName-Count</p>
+                                                <h4 class="mb-0">@Model.Contact.Count</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-primary text-primary">
+
+                                                <i class="fa-solid fa-calendar-day"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-primary mb-1">@Model.About.ClickName-CountDay</p>
+                                                <h4 class="mb-0">@Model.AboutCountDay</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 ">
+                                <div class="widget-stat card">
+                                    <div class="card-body p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-warning text-warning">
+                                                <i class="fa-solid fa-calendar-week"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class="text-warning mb-1">@Model.About.ClickName-CountMonth</p>
+                                                <h4 class="mb-0">@Model.AboutCountMonth</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="widget-stat card">
+                                    <div class="card-body  p-4">
+                                        <div class="media ai-icon">
+                                            <span class="me-3 bgl-danger text-danger">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                            </span>
+                                            <div class="media-body">
+                                                <p style="font-weight:700;" class=" text-danger  mb-1">@Model.About.ClickName-Count</p>
+                                                <h4 class="mb-0">@Model.About.Count</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="row">
+                                    <div class="col-xl-6 col-sm-6">
+                                        <div class="widget-stat card bg-success">
+                                            <div class="card-body p-4">
+                                                <div class="media">
+                                                    <span class="me-3">
+                                                        <i class="flaticon-381-diamond"></i>
+                                                    </span>
+                                                    <div class="media-body text-white text-end">
+                                                        <p class="mb-1">Companies</p>
+                                                        <h3 class="text-white">0</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-sm-6">
+                                        <div class="widget-stat card bg-info">
+                                            <div class="card-body p-4">
+                                                <div class="media">
+                                                    <span class="me-3">
+                                                        <i class="flaticon-381-heart"></i>
+                                                    </span>
+                                                    <div class="media-body text-white text-end">
+                                                        <p class="mb-1">Today Visit</p>
+                                                        <h3 class="text-white">0</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-sm-6">
+                                        <div class="widget-stat card bg-danger">
+                                            <div class="card-body  p-4">
+                                                <div class="media">
+                                                    <span class="me-3">
+                                                        <i class="flaticon-381-calendar-1"></i>
+                                                    </span>
+                                                    <div class="media-body text-white text-end">
+                                                        <p class="mb-1">Month Visited</p>
+                                                        <h3 class="text-white">0</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-sm-6">
+                                        <div class="widget-stat card bg-primary">
+                                            <div class="card-body p-4">
+                                                <div class="media">
+                                                    <span class="me-3">
+                                                        <i class="flaticon-381-user-7"></i>
+                                                    </span>
+                                                    <div class="media-body text-white text-end">
+                                                        <p class="mb-1">Today Companys Visited</p>
+                                                        <h3 class="text-white">@Model.TodayComVisited</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+   
+}

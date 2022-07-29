@@ -1,0 +1,80 @@
+body {
+    footer {
+        #footUp {
+            background-color: #292929;
+            padding: 26px 0px 0px 0px;
+
+            .container {
+                border: 1px solid #80808024;
+
+                .row {
+                    .footLeft {
+
+                        h6 {
+                            color: #949494;
+                            padding: 0px 22px;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            color: gray;
+                            font-weight: 500;
+                            font-size: 17px;
+                            letter-spacing: 3px;
+                        }
+                    }
+
+                    .footMiddle {
+
+                        h6 {
+                            color: #949494;
+                            padding: 0px 22px;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            color: gray;
+                            font-weight: 500;
+                            font-size: 17px;
+                            padding: 5px 0px;
+                        }
+                    }
+
+                    .footRight {
+
+                        h6 {
+                            color: #949494;
+                            padding: 0px 22px;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            color: gray;
+                            font-weight: 500;
+                            font-size: 17px;
+                            padding: 5px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #footDown {
+        background-color: #292929;
+        padding: 0px 0px 4px 0px;
+
+        .container {
+            border: 1px solid #80808024;
+
+            .row {
+                .CopyrightText {
+                    color: gray;
+
+                    a {
+                    }
+                }
+            }
+        }
+    }
+}
